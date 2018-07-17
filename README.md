@@ -42,7 +42,7 @@ build LEDE from source (see [this page for more
 details](https://lede-project.org/docs/guide-developer/quickstart-build-images)):
 
 ```
-git clone https://git.lede-project.org/source.git lede && cd lede
+git clone https://git.openwrt.org/openwrt/openwrt.git/ && cd openwrt
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make defconfig
@@ -50,7 +50,7 @@ make menuconfig
 make
 ```
 
-The resulting images can be found in `workdir/lede/bin/target`.
+The resulting images can be found in `workdir/openwrt/bin/target`.
 
 ## Author
 Jan Delgado <jdelgado[at]gmx.net>
